@@ -1,0 +1,27 @@
+<header role="navigation" class="navbar longheader">
+    <div class="container">
+        {{ page.header }}
+    </div>
+</header>
+{{ page.breadcrumbs }}
+<main role="main">
+    <div>
+        {{ page.content }}
+    </div>
+    {% if page.sidebar_first %}
+        <aside>
+        {{ page.sidebar_first }}
+        </aside>
+    {% endif %}
+    {% if page.sidebar_second %}
+    <aside>
+        {{ page.sidebar_second }}
+    </aside>
+    {% endif %}
+</main>
+
+<footer role="contentinfo">
+    <div>
+        {{ page.footer }}
+    </div>
+</footer>

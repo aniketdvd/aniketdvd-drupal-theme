@@ -1,0 +1,17 @@
+name: aniketdvd
+description: this is a theme for GCI screencast
+type: theme
+package: custom
+core: 8.x
+
+regions:
+  header: items of header
+  content: content stuff
+  footer: footer stuff
+  breadcrumbs: items of breadcrumbs
+  sidebar_first: items of sidebar I
+  sidebar_second: items of sidebar II
+
+libraries:
+  - aniketdvd/global-assets
+  - aniketdvd/style
