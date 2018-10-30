@@ -9,3 +9,4 @@ Move this folder to the themes folder in the Drupal installation directory. For 
 1. from app module installer: paste it either in apps/drupal/themes 
 2. Manual installationL: in apache2/htdocs/drupal-8.x.x/themes 
 
+*This repo is a part of Google Code-in 2018*
